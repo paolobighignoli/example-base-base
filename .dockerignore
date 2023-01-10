@@ -1,0 +1,14 @@
+# Generic
+.git
+.aws
+.devcontainer
+.dvc
+
+# Python-specific
+.venv
+__pypackages__
+.ipynb_checkpoints
+
+# Project specific
+data/
+models/

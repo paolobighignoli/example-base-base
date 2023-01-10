@@ -1,0 +1,7 @@
+# auto (commit LF, checkout OS-specific) by default for all files
+* text=auto
+
+# force linux line-endings for bash scripts
+*.sh text eol=lf
+# force linux line-endings for .python-version files
+packages/**/.python-version text eol=lf
